@@ -1,0 +1,96 @@
+.task-manager {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.task-manager-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  padding: 15px;
+  background-color: #f5f5f5; /* Light grey background */
+  border-radius: 8px;
+}
+
+.task-manager-controls button,
+.task-manager-controls input,
+.task-form input {
+  padding: 15px 20px; /* Same padding for consistent height */
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%; /* Full width for consistency */
+  border: none;
+  box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+.task-manager-controls button {
+  background-color: #004aad; /* Blue color */
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-manager-controls button:hover {
+  background-color: #2c3e50; /* Darker shade on hover */
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Consistent spacing */
+}
+
+.task-form button {
+  background-color: #004aad; /* Blue color */
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-form button:hover {
+  background-color: #2c3e50; /* Darker shade on hover */
+}
+
+.task-list {
+  width: 70%;
+  background-color: #fffff0; /* Ivory color */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.task-list h2 {
+  color: #004aad; /* Match header color */
+  margin-bottom: 10px;
+}
+
+.task-list button {
+  padding: 10px 15px; /* Adjust padding for button consistency */
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #004aad;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-list button:hover {
+  background-color: #2c3e50; /* Darker shade on hover */
+}
